@@ -1,9 +1,71 @@
+# Virtual environments
+
 .venv/
-__pycache__/
-*.py[cod]
+venv/
+env/
+
+# Environment variables & secrets
+
 .env
+.env.*
+!.env.example
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter
+
 .ipynb_checkpoints/
+
+# Testing / coverage
+
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking / linting
+
+.mypy_cache/
+.ruff_cache/
+
+# Build / distribution
+
+build/
+dist/
+*.egg-info/
+
+# IDE / editors
+
 .vscode/
-src/
-.pdf
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Local data / generated files
+
+*.tmp
+*.temp
+
+# Model artifacts
+
+*.pkl
+*.joblib
+*.safetensors
+*.gguf
+*.onnx
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
