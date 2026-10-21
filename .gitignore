@@ -70,3 +70,7 @@ Thumbs.db
 *.db
 *.sqlite
 *.sqlite3
+
+# Others
+log.txt
+notes/
